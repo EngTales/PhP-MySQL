@@ -27,11 +27,11 @@
 		<fieldset>
 			<legend>Prioridade</legend>
 			<label>
-				<input type="radio" name="prioridade" value="baixa"/>
+				<input type="radio" name="prioridade" value="1"/>
 					Baixa
-				<input type="radio" name="prioridade" value="media"/>
+				<input type="radio" name="prioridade" value="2"/>
 					Media
-				<input type="radio" name="prioridade" value="alta"/>
+				<input type="radio" name="prioridade" value="3"/>
 					Alta
 			</label>
 		</fieldset>
@@ -45,7 +45,7 @@
 
 <br></br>
 
-<p align="center">
+
 <table>
 	<tr>
 		<th>Tarefas</th>
@@ -65,7 +65,7 @@
 	</tr>
 	<?php endforeach; ?>
 </table>
-</p>
+
 
 </body>
 </html>

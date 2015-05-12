@@ -28,7 +28,7 @@ if(isset($_GET['nome']) && $_GET['nome'] != ''){
 		$tarefa['concluida'] = '';
 	}
 
-	$_SESSION['lista_tarefas'][] = $tarefa;
+	gravar_tarefa($conexao, $tarefa);
 }
 
 $lista_tarefas = array();
